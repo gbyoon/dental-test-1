@@ -1,0 +1,29 @@
+<!-- about.html -->
+    <div class="jumbotron text-center">
+        <h2>{{ message }}</h2>
+        <h2> Title : {{ msg }}</h2>
+    </div>
+
+    <div ng-show="showUser" class="jumbotron text-center">
+        <h4>Asynchronous results : {{tUser}}</h4>
+
+        <pre>Model: {{obj.dentName}}/{{obj.mobile}} </pre>
+
+        <input type="text" ng-change="hideDentalInfo()" ng-model="obj" placeholder="Dental Info loaded via $http" typeahead="obj as (obj.dentName + ' / ' + obj.mobile) for obj in getDentalCode($viewValue)" typeahead-loading="loadingMemcode" typeahead-on-select='onSelect($item, $model, $label)' class="form-control">
+        <i ng-show="loadingMemcode" class="glyphicon glyphicon-refresh"></i>
+
+        <button ng-click="saveUser()">saveUser</button>
+        <button ng-click="clsShowUser()">close</button>
+
+    </div>
+
+        <button ng-click="refreshUserList()">refresh</button>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2" style="margin-bottom: 30px;margin-top: 30px;">
+          <veasy-table list="people" selected-items="selecteds" config="config"></veasy-table>
+        </div>
+      </div>
+        <p>{{ test_string }}</p>
+
+

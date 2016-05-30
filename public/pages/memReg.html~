@@ -1,0 +1,14 @@
+<!-- about.html -->
+    <div class="jumbotron text-center">
+        <p>{{ message }}</p>
+        <p> Title : {{ msg }}</p>
+<p>
+    회원이름 : <input type="text" ng-model="name"/> <br/>
+    생녕월일 : <input type="text" ng-model="birth"/> <br/>
+    주    소 : <input type="text" ng-model="address"/> <br/>
+    휴대폰 : <input type="text" ng-model="mobile"/> <br/>
+    <button ng-click="saveMemberView()">Save View</button>
+</p>
+
+    </div>
+

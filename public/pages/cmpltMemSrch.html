@@ -1,0 +1,26 @@
+<!-- about.html -->
+    <div class="jumbotron text-center">
+        <h2>{{ message }}</h2>
+        <h2> Title : {{ msg }}</h2>
+    </div>
+
+    <div ng-show="showUser" class="jumbotron text-center">
+
+        <p>Member Name : {{ memName }}</p>
+        <p>Member Birth : {{ memBirth }}</p>
+        <p>Member Address : {{ memAddress }}</p>
+        <p>Member Mobile : {{ memMobile }}</p>
+        <p>Dental Clinic : {{ dental }}</p>
+        <button ng-click="clsShowUser()">close</button>
+
+    </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2" style="margin-bottom: 30px;margin-top: 30px;">
+          <veasy-table list="people" selected-items="selecteds" config="config"></veasy-table>
+        </div>
+      </div>
+        <p>{{ test_string }}</p>
+
+
+

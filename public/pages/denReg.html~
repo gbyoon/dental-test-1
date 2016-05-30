@@ -1,0 +1,15 @@
+<!-- about.html -->
+    <div class="jumbotron text-center">
+        <h2>{{ message }}</h2>
+        <h2> test data : {{ msg }}</h2>
+<p>
+    치과명 : <input type="text" ng-model="dentalname"/> <br/>
+    원장명 : <input type="text" ng-model="doctorname"/> <br/>
+    주 소  : <input type="text" ng-model="address"/> <br/>
+    휴대폰 : <input type="text" ng-model="mobile"/> <br/>
+    전화번호   : <input type="text" ng-model="tel"/> <br/>
+    <button ng-click="saveDentalView()">Save View</button>
+</p>
+
+    </div>
+
