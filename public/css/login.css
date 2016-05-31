@@ -92,6 +92,7 @@ form {
 
 form label {
 	border:1px solid red;
+	color: #000;
 }
 
 form input {
