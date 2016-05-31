@@ -89,6 +89,11 @@ form {
   position: relative;
   z-index: 2;
 }
+
+form label {
+	border:1px solid red;
+}
+
 form input {
   -webkit-appearance: none;
      -moz-appearance: none;
