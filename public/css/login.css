@@ -63,8 +63,8 @@ body :-ms-input-placeholder {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0;
-  height: 400px;
+  padding:45px;
+  height: 579px;
   text-align: center;
   border:10px solid #E0F7FA;
 }
