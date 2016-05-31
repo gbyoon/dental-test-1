@@ -1,5 +1,5 @@
 $(window).load(function(){
-	$("#loading").delay(1000).fadeOut();
+	$("#loading").delay(100).fadeOut();
 	$("#loading-center").delay(2).fadeOut("slow");
 	
 	
@@ -14,6 +14,6 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 		$('#loader-out').fadeOut();
-	}, 3000);	
+	}, 300);	
 });
 
