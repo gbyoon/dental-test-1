@@ -85,7 +85,7 @@ body :-ms-input-placeholder {
 
 /*폼*/
 form {
-  padding: 20px 0;
+  padding: 45px 0;
   position: relative;
   z-index: 2;
 }
